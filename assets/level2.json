@@ -1,0 +1,21 @@
+{
+	name: "Obstacle avoidance",
+	requiredFlies: 50,
+	startFlies: 100,
+	goal: {
+		x: -14,
+		y: -3,
+		width: 6,
+		height: 6
+	},
+	swatters: [
+		[-1, -3],
+		[-1, -1, true],
+		[-1, 1],
+		[-1, 3, true],
+		[-1, 5]
+	],
+	start: {x: 8},
+	nextLevel: level3,
+	hint: "Remove Bait by right-clicking"
+}

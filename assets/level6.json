@@ -1,0 +1,17 @@
+{
+	name: "Tau",
+	requiredFlies: 40,
+	startFlies: 50,
+	goal: {
+		x: -3,
+		y: -3,
+		width: 6,
+		height: 6
+	},
+	blades: [
+		[0, 0, 5, 5, 0.22],
+		[0, 0, 10, 10, 0.25]
+	],
+	start: {x: -14, y: 0},
+	nextLevel: level7
+}

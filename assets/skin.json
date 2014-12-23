@@ -1,0 +1,15 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		black: {r: 0, b: 0, g: 0, a: 1}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: {
+			down: border, up: border, font: default, fontColor: black
+		}
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: {
+			font: default, fontColor: black
+		}
+	}
+}
